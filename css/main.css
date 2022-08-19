@@ -1,0 +1,232 @@
+#header {
+  padding: 14px 0px 14px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.nav-menu > li {
+  float: left;
+  list-style :none;
+  
+}
+
+
+.nav-menu a {
+  padding: 6px 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  outline: none;
+  list-style-type: none;
+  
+}
+
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  display: block;
+  font-size: 12px;
+  text-transform: none;
+  list-style-type: none;
+  
+}
+
+.nav-menu ul ul {
+  margin: 0;
+  
+}
+
+.tombol{  
+  background-color: #fab700;
+  line-height: 42px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+}
+
+li a:hover{
+	color: #fab700;
+	background-color: transparent;
+	border: 2px solid #fab700;
+	
+	
+}
+
+.menu-active{
+	color: #fab700;
+	background-color: transparent;
+	border: 2px solid #fab700;
+	
+	
+}
+
+.tombol:hover {
+  color: #fab700;
+  background-color: transparent;
+  border-color: #fab700;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.background {
+  background: url(../gambar/Infiniti-Q60.jpg) center;
+  background-size: cover;
+  height:1000px;
+  width:100%;
+
+?}
+
+
+.background .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 1000px;
+  width:100%;
+
+
+}
+
+.header-right {
+  background-color: rgba(32, 46, 69, 0.4);
+  border: 1px solid #4b5263;
+  padding: 10px;
+}
+
+.register{
+	margin-top:50px;
+}
+
+
+input[type="text"], input[type="password"]{
+	padding: 10px;
+	padding-right: 150px;
+	margin:8px;
+	margin-left: 20px;
+}
+
+ .regist{
+	 margin-left:130px;
+ }
+ 
+ .login{
+	 margin-left:60px;
+ }
+ 
+ .cancel{
+	 margin-left:20px;
+ }
+
+ .unggah{
+	 margin-left:50px;
+	
+ }
+ 
+ .submit{
+	 margin-left:20px;
+	
+ }
+ 
+ .submit_2{
+	 margin-left:50px;
+	
+ }
+
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 0px solid #d9d9d9;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
+  padding-left: 20px;
+}
+
+.label-input100 {
+  font-family: Poppins-Regular;
+  font-size: 21px;
+  color: white;
+  line-height: 1;
+  padding-left: 2px;
+}
+
+ 
+ footer {
+    background-color: #062F4F;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.card {
+	position:relative;
+	margin-top:100px;
+	margin-left:30px;
+}
+
+img{transition:all.3s ease-in-out;}
+
+img:hover{transform: scale(1.1);}
+
+.card-link{
+	margin-left:50px;
+font-style:bold;
+
+}
+.card-title{
+	text-align:center;
+}
+.btn btn-warning{
+	margin-top:10px;
+	color:#003263
+}
+p{
+	color:gray;
+	font-size:10;
+	text-align:center;
+}
+h6{
+	margin-bottom:20px;
+	font:bold;
+	color: #fab700;
+}
+
+#loading {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../gambar/pencil.png);
+}
+
